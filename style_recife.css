@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(253, 233, 197);
+}
+header h1 {
+    background-size: cover; /* Garante que a imagem cubra todo o espaço disponível */
+    background-position: center; /* Centraliza a imagem */
+    height: 25vh; /* Define a altura do cabeçalho para 20% da altura da tela */
+    width: 100vw; /* Define a largura para 100% da tela */
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    text-align: center;
+}
+
+section{
+    text-align: center;
+    align-items: center;
+   
+}
