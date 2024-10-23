@@ -2,22 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(253, 233, 197);
 }
 
-header h1 {
-    background-size: cover; /* Garante que a imagem cubra todo o espaço disponível */
-    background-position: center; /* Centraliza a imagem */
+header {
     height: 25vh; /* Define a altura do cabeçalho para 20% da altura da tela */
     width: 100vw; /* Define a largura para 100% da tela */
     display: flex;
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
     align-items: center; /* Centraliza o conteúdo verticalmente */
     text-align: center;
+    font-size: 50px;
+    background: #58378C;
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+    
+nav {
+    text-align: center; /* Centraliza o texto horizontalmente dentro do nav */
 }
 
+nav a {
+    display: inline-block;/* Mostra os link um na frente do outro */
+    margin: 0 15px; /* Espaçamento horizontal entre os links */
+    color: rgb(101, 81, 43);
 
+}
 section{
     text-align: center;
     align-items: center;
 }
+
+main {
+    background-color: #EF7D19;
+    padding: 16px;
+    color: white;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+  }
